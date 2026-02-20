@@ -27,3 +27,7 @@ Checklist before PR
 - [ ] Lint/build pass
 - [ ] No personal-only identity values included in upstream branch
 - [ ] Ledger updated with source and upstream SHAs
+
+Helper scripts
+- scripts/prepare-upstream-branch.sh <branch-name>
+- scripts/log-porting-entry.sh <source-sha> <upstream-branch> <upstream-sha> <pr-url> [notes]
